@@ -1,0 +1,11 @@
+chart:
+  deployment:
+    app:
+      enabled: true
+    serviceAccount:
+      create: false
+
+    test:
+      enabled: false
+    daemonset: false
+    hostNetwork: false
